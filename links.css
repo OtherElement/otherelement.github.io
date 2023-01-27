@@ -46,7 +46,6 @@ h1 {
 ul {
     list-style-type: none;
 }
-
 p {
     color: #FB5D85;
     padding: 10px;
@@ -54,5 +53,13 @@ p {
     width: 50%;
     border: 2px solid rgba(0, 0, 0, 0.7);
     border-radius: 5px;
+}
+main a{
+    text-decoration: ;
+    color:#D9486E;
+}
+main a:visited {
+    text-decoration: ;
+    color:#F2B705;
 }
 
