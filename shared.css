@@ -22,6 +22,8 @@ nav a {
     text-decoration: none;
     color:white;
     padding: 16px;
+    transition: background-color ease 0.25s;
+    transition: color ease 0.25s;
 }
 nav a:hover {
     background-color: #FB5D85;
@@ -54,10 +56,12 @@ p {
     border: 2px solid rgba(0, 0, 0, 0.7);
     border-radius: 5px;
 }
-main a{
-    color:#D9486E;
-}
-main a:visited {
+main a {
     color:#F2B705;
+    text-decoration: none;
 }
 
+main a:hover {
+    color:#F2B705;
+    text-decoration: underline;
+}
