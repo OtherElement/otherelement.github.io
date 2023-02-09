@@ -37,9 +37,30 @@ li {
     border-radius: 50%;
     float: left;
 }
+#mobileonly {
+    display:none;
+}
+@media screen and (max-width: 600px) {
+    nav {
+      display: none;
+      width: 0px;
+    }
+    main {
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+    h1 {
+        text-align: center;
+    }
+    #mobileonly {
+        display:inline;
+    }
+  }
 main {
     margin-left: 200px;
     padding-left: 20px;
+    
 }
 h1 {
     color: #F2DE79;
@@ -52,9 +73,10 @@ p {
     color: #FB5D85;
     padding: 10px;
     background-color:rgba(0, 0, 0, 0.7);
-    width: 400px;
+    width: 500px;
     border: 2px solid rgba(0, 0, 0, 0.7);
     border-radius: 5px;
+    font-size:1.2rem;
 }
 main a {
     color:#F2B705;
