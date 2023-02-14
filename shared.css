@@ -44,24 +44,33 @@ li {
     nav {
       display: none;
       width: 0px;
-    }
-    main {
-        margin-left: 0px;
-        padding-left: 0px;
-        
-    }
-    h1 {
-        text-align: center;
+      width: 100%;
     }
     #mobileonly {
         display:inline;
     }
   }
-main {
-    margin-left: 200px;
-    padding-left: 20px;
-    
+
+  @media screen and (max-width: 400px) {
+    p {
+        font-size: 0.8rem;
+        width: 80%;
+    }
+  }
+@media screen and (min-width:600px) {
+    main {
+        margin-left: 200px;
+        padding-left: 20px;
+        
+    }
+    h1 {
+        text-align: left;
+    }
+    p {
+        width: 65%;
+    }
 }
+
 h1 {
     color: #F2DE79;
     text-shadow: 2px 2px 5px black;
@@ -73,7 +82,7 @@ p {
     color: #FB5D85;
     padding: 10px;
     background-color:rgba(0, 0, 0, 0.7);
-    width: 500px;
+    
     border: 2px solid rgba(0, 0, 0, 0.7);
     border-radius: 5px;
     font-size:1.2rem;
